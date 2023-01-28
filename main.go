@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(dp.NumDecodingsWith2("226"))
+	fmt.Println(dp.IsInterleaveDP("aabcc", "dbbca", "aadbbcbcac"))
 }
