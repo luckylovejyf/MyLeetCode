@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(dp.Partition("fff"))
+	fmt.Println(dp.Rob([]int{200, 3, 140, 20, 10}))
 }
