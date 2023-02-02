@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(dp.NthUglyNumber(10))
+	fmt.Println(dp.LargestDivisibleSubset([]int{1, 2, 3}))
 }
