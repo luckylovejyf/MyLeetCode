@@ -1,10 +1,9 @@
 package main
 
 import (
-	"LeetCode/dp"
-	"fmt"
+	"LeetCode/tesla/test"
 )
 
 func main() {
-	fmt.Println(dp.LargestDivisibleSubset([]int{1, 2, 3}))
+	test.Solution1(0010010)
 }
