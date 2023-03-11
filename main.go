@@ -1,9 +1,7 @@
 package main
 
-import (
-	"LeetCode/tesla/test"
-)
+import "LeetCode/hot100"
 
 func main() {
-	test.Solution1(0010010)
+	hot100.LengthOfLongestSubstring("abcabcbb")
 }
