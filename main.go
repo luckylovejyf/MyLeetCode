@@ -1,7 +1,10 @@
 package main
 
-import "LeetCode/hot100"
+import (
+	"LeetCode/hot100"
+	"fmt"
+)
 
 func main() {
-	hot100.LengthOfLongestSubstring("abcabcbb")
+	fmt.Println(hot100.LongestPalindrome("bb"))
 }
