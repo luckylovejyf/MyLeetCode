@@ -1,6 +1,6 @@
 package hot100
 
-// LengthOfLongestSubstring 3. 无重复字符的最长子串
+// LengthOfLongestSubstring 3. 无重复字符的最长子串 滑动窗口
 // 暴力解法：直接两层遍历O(N^2)
 // 滑动窗口：固定左指针，右指针向右遍历，直到出现越界或者出现重复字符
 // 计算当前是否为最大长度
