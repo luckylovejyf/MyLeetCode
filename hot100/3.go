@@ -3,8 +3,8 @@ package hot100
 // LengthOfLongestSubstring 3. 无重复字符的最长子串 滑动窗口
 // 暴力解法：直接两层遍历O(N^2)
 // 滑动窗口：固定左指针，右指针向右遍历，直到出现越界或者出现重复字符
+// 判断是否有重复字符，通过map记录，右指针右移，需要将当前字符加入到map中；左指针右移，需要将当前字符从map中移除
 // 计算当前是否为最大长度
-// 清理左指针字符在map中的记录，左指针右移一位
 func LengthOfLongestSubstring(s string) int {
 	n := len(s)
 	if n == 0 {
