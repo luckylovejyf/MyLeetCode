@@ -1,10 +1,9 @@
 package main
 
 import (
-	"LeetCode/hot100"
-	"fmt"
+	"LeetCode/test_demo"
 )
 
 func main() {
-	fmt.Println(hot100.LongestPalindrome("bb"))
+	test_demo.TypeEqual()
 }
