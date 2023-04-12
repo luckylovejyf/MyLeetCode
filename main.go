@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	test_demo.TypeEqual()
+	test_demo.SliceParamAppend()
 }
